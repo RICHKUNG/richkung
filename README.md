@@ -10,19 +10,27 @@ Before Michigan I studied Electrical Engineering at National Tsing Hua Universit
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/RICHKUNG/FamilyPart"><img src="assets/familypart-thumbnail.jpg" alt="FamilyPart single-frame example: RGB input and L4 drawer parts segmented within an L2 parent"></a>
       <br><b><a href="https://github.com/RICHKUNG/FamilyPart">FamilyPart</a></b>
       <br>Training-free, open-vocabulary 3D part segmentation from posed RGB-D video. Undergraduate research, Vision Science Lab, NTHU.
       <br><sub>Semantic-SAM · SAM2 · SigLIP · point clouds</sub>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
+      <a href="https://github.com/RICHKUNG/motion-planning-and-control"><img src="assets/motion-planning.jpg" alt="RRT* search tree and final path through a hexagonal obstacle map"></a>
+      <br><b><a href="https://github.com/RICHKUNG/motion-planning-and-control">motion-planning-and-control</a></b>
+      <br>A* and RRT* planning, curvature-limited speed profiles, and PID / Pure Pursuit / Stanley / LQR path tracking compared on F1 tracks in simulation.
+      <br><sub>A* · RRT* · Stanley · Pure Pursuit · LQR · bicycle model</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/RICHKUNG/ros2-autonomous-pick-and-place"><img src="assets/pick-and-place.jpg" alt="Rover in the Unity course next to its camera view with a bear detected at 0.52 m"></a>
       <br><b><a href="https://github.com/RICHKUNG/ros2-autonomous-pick-and-place">ros2-autonomous-pick-and-place</a></b>
       <br>ROS 2 mission stack that finds, localizes and grasps objects with a 5-DOF arm, including a controller that runs without Nav2.
       <br><sub>ROS 2 · YOLO · TF2 · Nav2 · visual servoing</sub>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <a href="https://github.com/RICHKUNG/STM32-Line-Follower-MQTT"><img src="assets/stm32.jpg" alt="Boe-Bot car with STM32 board and sensors"></a>
       <br><b><a href="https://github.com/RICHKUNG/STM32-Line-Follower-MQTT">STM32-Line-Follower-MQTT</a></b>
       <br>Line-following car that makes every driving decision on board, plus a touchscreen dashboard linked over MQTT.
