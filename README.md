@@ -49,6 +49,6 @@ Before Michigan I studied Electrical Engineering at National Tsing Hua Universit
 #### Toolbox
 
 - **Planning & control:** ROS 2 · Nav2 · A* / RRT* · PID / Pure Pursuit / Stanley / LQR · PPO
-- **Perception:** PyTorch · YOLO · SAM2 · CLIP / SigLIP · point clouds
+- **Perception:** YOLO · SAM2 · CLIP / SigLIP · point clouds
 - **Embedded:** STM32 · ESP32 · Mbed OS · MQTT
 - **General:** Python · C++ · Linux · Git
