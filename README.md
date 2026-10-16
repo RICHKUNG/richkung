@@ -11,7 +11,7 @@ Before Michigan I studied Electrical Engineering at National Tsing Hua Universit
 <table>
   <tr>
     <td width="33%" valign="top">
-      <a href="https://github.com/RICHKUNG/FamilyPart"><img src="assets/familypart.jpg" alt="FamilyPart pipeline: multi-level Semantic-SAM masks tracked with SAM2 and lifted to 3D"></a>
+      <a href="https://github.com/RICHKUNG/FamilyPart"><img src="assets/familypart-thumbnail.jpg" alt="FamilyPart single-frame example: RGB input and L4 drawer parts segmented within an L2 parent"></a>
       <br><b><a href="https://github.com/RICHKUNG/FamilyPart">FamilyPart</a></b>
       <br>Training-free, open-vocabulary 3D part segmentation from posed RGB-D video. Undergraduate research, Vision Science Lab, NTHU.
       <br><sub>Semantic-SAM · SAM2 · SigLIP · point clouds</sub>
