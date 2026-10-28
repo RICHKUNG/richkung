@@ -1,12 +1,18 @@
 ### Hi, I'm Rich (Hsiang-Yu Kung)
 
-I'm an MS Robotics student at the **University of Michigan**, and I want to build autonomous vehicles.
+I'm an MS Robotics student at the **University of Michigan**, and I want to build autonomous vehicles. At Michigan I've built a vision-guided manipulation stack on a real 6-DOF arm.
 
 Before Michigan I studied Electrical Engineering at National Tsing Hua University in Taiwan. There I did research on open-vocabulary 3D perception, implemented planning, control and reinforcement-learning methods for robot navigation, and built small robots from the firmware up.
 
 [LinkedIn](https://www.linkedin.com/in/richkung) · [Email](mailto:odyssey@umich.edu)
 
 #### Featured work
+
+##### [Vision-Guided Pick-and-Place on a 6-DOF Arm](https://github.com/RICHKUNG/lite6-vision-pick-and-place)
+
+Kinematics, RGB-D calibration and a height-based block detector on a real Lite 6 arm. 3rd of 12 teams; 24-block tower. ROB 550, University of Michigan.
+
+<a href="https://github.com/RICHKUNG/lite6-vision-pick-and-place"><img src="assets/armlab.jpg" alt="Lite 6 arm carrying a side tower toward a tall rainbow tower, beside the block detector rejecting a hand and a phone" width="360"></a>
 
 ##### [Motion Planning & Vehicle Control](https://github.com/RICHKUNG/motion-planning-and-control)
 
@@ -26,23 +32,19 @@ Training-free 3D part segmentation from RGB-D video, with hierarchical masks, te
 
 <a href="https://github.com/RICHKUNG/FamilyPart"><img src="assets/familypart-thumbnail.jpg" alt="FamilyPart single-frame example: RGB input and L4 drawer parts within an L2 parent" width="360"></a>
 
-##### [STM32 Line-Following Rover](https://github.com/RICHKUNG/STM32-Line-Follower-MQTT)
-
-On-board line following and branch decisions, with an MQTT-linked touchscreen dashboard.
-
-<a href="https://github.com/RICHKUNG/STM32-Line-Follower-MQTT"><img src="assets/stm32.jpg" alt="Boe-Bot car with STM32 board and sensors" width="360"></a>
-
 #### More projects
 
 - **[Reinforcement Learning for Navigation](https://github.com/RICHKUNG/rne-reinforcement-learning)**: PPO path tracking and a reward-design case study for checkpoint navigation.
 - **[ECG Pulse Runner](https://github.com/RICHKUNG/ecg-pulse-runner)**: a runner game driven by your heartbeat and your voice. Training-free MFCC-DTW command recognition, 85.3% accurate on an unseen speaker.
+- **[STM32 Line-Following Rover](https://github.com/RICHKUNG/STM32-Line-Follower-MQTT)**: on-board line following and branch decisions, with an MQTT-linked touchscreen dashboard.
 - **[Sand Drawing Robot](https://github.com/RICHKUNG/Sand-Drawing-Robot)**: an ESP32 two-link polar sand table with closed-form inverse kinematics.
 - **[CommitteeAI](https://github.com/RICHKUNG/CommitteeAI)**: a chair LLM designs its own committee of agents, runs their discussion and writes the synthesis.
 - **Other engineering:** [FPGA Galaxian](https://github.com/RICHKUNG/fpga-galaxian) · [SDR Key Fob Decoder](https://github.com/RICHKUNG/sdr-key-fob-decoder)
 
 #### Toolbox
 
+- **Manipulation:** DH / PoX kinematics · closed-form IK · MuJoCo
 - **Planning & control:** ROS 2 · Nav2 · A* / RRT* · PID / Pure Pursuit / Stanley / LQR · PPO
-- **Perception:** YOLO · SAM2 · CLIP / SigLIP · point clouds
+- **Perception:** RGB-D calibration · AprilTag · OpenCV · YOLO · SAM2 · CLIP / SigLIP · point clouds
 - **Embedded:** STM32 · ESP32 · Mbed OS · MQTT
 - **General:** Python · C++ · Linux · Git
